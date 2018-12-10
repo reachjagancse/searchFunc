@@ -80,3 +80,12 @@ $(function(){
     alert(event.touches.length);
   });
 });
+
+  var container = document.getElementById("container");
+
+ var input = document.createElement("input");
+                input.type = "text";
+                input.name = "member" + i;
+                container.appendChild(input);
+                // Append a line break 
+                container.appendChild(document.createElement("br"));
