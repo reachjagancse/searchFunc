@@ -74,3 +74,9 @@ $(this).append(
         val: $('#div1').text()
     })
 );
+
+$(function(){
+  $("#div").bind("touchstart", function (event) {
+    alert(event.touches.length);
+  });
+});
