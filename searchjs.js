@@ -66,3 +66,11 @@ $(document).on('click', '.searchButtonClickText_h', function (event) {
 
 
 });
+
+
+$(this).append(
+    $('<input>', {
+        type: 'text',
+        val: $('#div1').text()
+    })
+);
